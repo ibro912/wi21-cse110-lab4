@@ -11,24 +11,43 @@
 11) This will print out the value of 0. This is because the finalPrice variable was assigned a value of 0 at line 3, and const variables cannot be reassigned a value after they have been assigned their first value. Therefore, any new assignment in the for loop is disregarded, and the finalPrice variable will always remain as 0. 
 12) This function will return the array of [0, 0, 0]. Because finalPrice is being pushed into the array, and finalPrice is a const variable, the contents of finalPrice will never change, and will always be 0. Because the variable discounted is a const, it will always remain an array, but the array itself can be mutated through the push commands, therefore the array will grow due to the function.
 13) student.name;
+    
     student['Grad Year'];
+    
     student.greeting();
+    
     student['Favorite Teacher'].name;
+    
     student.courseLoad[0];
+
 14a) The output is a string that is equal to '32'. This is because the first part of the equation, the '3' is a string, so it assumes that the equation is a string concatenation.
+
 14b) The output is equal to 1. This is because there is no available equal term for strings for the subtraction "-". Therefore, it cannot do anything for a string, so it converts the 3 into a number. 
+
 14c) The output is 3. This is because the null value, when compared with a number, becomes equivalent to 0. 
+
 14d) The output is '3null'. This is because the null value becomes a string with the equivalent value, so it becomes 'null'.
+
 14e) The output is 4. This is because when true is compared with a numeric value, it becomes equivalent to 1, so it adds the two values together.
+
 14f) The output is 0. This is because, there is no way to add these two values together unless they are being compared as numeric values. Therefore, both of these values are equal to 0, so it equals to 0 + 0.
+
 14g) The output is '3undefined'. This is because it is still referred to as a string, and the undefined is being treated as a string.
+
 14h) The output is NaN, which is defined as not a number, and this is because there is no subtraction for strings, so they are being treated as numeric values. Therefore, undefined is determined as NaN, so that will be the output.
+
 15a) The output is true. This is because comparisons of different types are treated as a comparisons of numbers. Therefore, it compares if 2 is greater than 1, which is true.
+
 15b) The output is false. This is because they are being compared to as strings, because they share the same type. Strings are compared character by character, so the comparison boils down to if '2' < '1', which is false, so the output is false. 
+
 15c) The output is true. This is because they are different types, so it is comparing it as two numeric values. 2 is equal to 2, so the output is true.
+
 15d) The output is false. This is because the triple = checks the equality without type conversion. Because the two values are different types, it is automatically false.
+
 15e) The output is false. They are different types, so it compares them as numbers, and true is equal to 1, so it is false.
+
 15f) The output is true. This is because the boolean function converts the value into a boolean value, and because 2 converts into true, the output is true.
+
 16) The difference between the == and === operators is whether there is type conversion. == will convert the types of the values if they are different, thus checking if they are equal after a possible conversion. However, === checks if they are equal without converting the type of the values. Therefore, if the two values differ in type, the === will automatically output to false.
 17) The string of 'How are you?' will be printed. This is because the first statement of 2 == true will output to false, because true is converted to 1, so the overall statement will be false. Then it will move onto the 2nd conditional, where 2 will be converted to a boolean, so it will be true, which means that the 2nd line will be printed, and the conditional will be finished. 
 18) (code)
